@@ -13,10 +13,6 @@ const User = require("./models/User");
 const ExpressError = require("./utils/ExpressError.js")
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 34d22169dca841af534e9af266c5ac93cc4c4089
 const app = express();
 const mongoUrl = process.env.MONGO_URI;
 const sessionSecret = process.env.SESSION_SECRET;
